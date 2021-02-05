@@ -1,102 +1,51 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="http://v4-alpha.getbootstrap.com/favicon.ico">
-
-
-<center><h1>Alex Chaney</h1></center>
-    <!-- Bootstrap core CSS -->
-    <link href="http://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="http://v4-alpha.getbootstrap.com/examples/navbar-top-fixed/navbar-top-fixed.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-  </head>
-
-  <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Alex Chaney</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          Navbar text with an inline element
-        </span>
-      </div>
-    </nav>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
-
-
-  </body>
-</html>
 <html>
-  <title>Team Website</title>
-  <style> /*Link to outside source (href) */
-  body{
-    text-align:center;
-    color:Black;
-    background-color:Silver;
-    font-size: 20px;
-    font-style: Helvetica;
-    background: linear-gradient(35deg, #CCFFFF,#FFCCCC);
-  }
-  .smaller-image{
-    width:200px;
-  }
-  .thin-black-border {
-    border-color: black;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 100px;
-  }
-  </style>
-  <body>
-  <h1 style = color:red;></h1>
-      <img class="smaller-image thin-black-border" src="https://cdn.discordapp.com/attachments/405447054802944021/555868091683307587/IMG_9262.JPG" alt="Alex Chaney">
-      <p>Howdy!! I am Alexandra Chaney, a Sophomore in the GIMM Major at Boise State University! I have a heavy influence with Material Science Engineering, so the visual side of GIMM is what I like to deal with. I enjoy games with a Heavy story such as The Last of Us and Red Dead Redemption 2.</p>
-&nbsp;&nbsp;
-<!-- <a href ="#skills">Skills</b> | <a href="PastProjects.html"> Past Projects </a> |<a href=""> Courses Taken </a> |<a href=""> Contact Me</a></center> -->
-<!--  <h2 id = "skills">SKILLS</h2>
-    <ul>
-        <li>Drawing</li>
-        <li>Concepting</li>
-        <li>Animation</li>
-    </ul> -->
-      &nbsp;&nbsp;
-<!--  <h3 id = "previous projects">PREVIOUS PROJECTS</h3>
-      <center><p> WordPress Website</p>
-        <center><img class = "larger-image img-responsive" src="https://media.discordapp.net/attachments/411281224607465504/555889417953345573/WordPress_Site_1.JPG?width=705&height=341">
-        <center><img class = "larger-image img-responsive" src="https://cdn.discordapp.com/attachments/411281224607465504/555889447225393152/WordPress_Site_2.JPG">
-        <p> -->
-          &nbsp;&nbsp;
-<!--  <h4 id = "Resume">RESUME</h4>
-      <center><link href = https://docs.google.com/document/d/1XeXjnTYIyfBrTHVUGquVD89F-Ee_FKWdTUVj5IPFfBI/edit?usp=sharing> -->
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
+  <h1 class="w3-xlarge">PHOTOGRAPHER</h1>
+  <h1>Alex Chaney</h1>
+
+  <div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="#" class="w3-bar-item w3-button w3-light-grey">Resume</a>
+      <a href="#" class="w3-bar-item w3-button">Portfolio</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Photo Grid -->
+<div class="w3-row-padding" style="margin-bottom:128px">
+  <div class="w3-half">
+
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-github w3-hover-opacity"></i>
+</footer>
+
 </body>
 </html>
